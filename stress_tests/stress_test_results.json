@@ -1,0 +1,134 @@
+{
+  "test1": {
+    "test": "perfect_hamiltonian",
+    "lambda": 1.000004,
+    "expected": 1.0,
+    "status": "PASS"
+  },
+  "test2": {
+    "test": "known_damping",
+    "results": [
+      {
+        "gamma_true": 0.001,
+        "gamma_measured": 0.0009997104,
+        "error": 2.896000000000929e-07,
+        "rel_error": 0.0002896000000000929
+      },
+      {
+        "gamma_true": 0.005,
+        "gamma_measured": 0.004998552,
+        "error": 1.4480000000002477e-06,
+        "rel_error": 0.00028960000000004954
+      },
+      {
+        "gamma_true": 0.01,
+        "gamma_measured": 0.009997106,
+        "error": 2.8939999999998134e-06,
+        "rel_error": 0.00028939999999998134
+      },
+      {
+        "gamma_true": 0.05,
+        "gamma_measured": 0.04998915,
+        "error": 1.0849999999999749e-05,
+        "rel_error": 0.00021699999999999497
+      },
+      {
+        "gamma_true": 0.1,
+        "gamma_measured": 0.1000029,
+        "error": 2.9000000000001247e-06,
+        "rel_error": 2.9000000000001247e-05
+      },
+      {
+        "gamma_true": 0.2,
+        "gamma_measured": 0.1999982,
+        "error": 1.8000000000240046e-06,
+        "rel_error": 9.000000000120023e-06
+      }
+    ],
+    "status": "PASS"
+  },
+  "test3": {
+    "test": "chaos_boundary",
+    "results": [
+      {
+        "r": 2.8,
+        "lambda": 0.88,
+        "expected": "\u03bb < 1 (stable/periodic)",
+        "correct": true
+      },
+      {
+        "r": 3.2,
+        "lambda": 0.988,
+        "expected": "\u03bb < 1 (stable/periodic)",
+        "correct": true
+      },
+      {
+        "r": 3.5,
+        "lambda": 0.988,
+        "expected": "\u03bb < 1 (stable/periodic)",
+        "correct": true
+      },
+      {
+        "r": 3.57,
+        "lambda": 1.012,
+        "expected": "\u03bb \u2265 1 (chaotic)",
+        "correct": true
+      },
+      {
+        "r": 3.7,
+        "lambda": 1.012,
+        "expected": "\u03bb \u2265 1 (chaotic)",
+        "correct": true
+      },
+      {
+        "r": 3.9,
+        "lambda": 1.012,
+        "expected": "\u03bb \u2265 1 (chaotic)",
+        "correct": true
+      }
+    ],
+    "status": "PASS"
+  },
+  "test4": {
+    "test": "time_reversal",
+    "results": {
+      "forward": 1.0,
+      "backward": 1.0
+    },
+    "status": "PASS"
+  },
+  "test5": {
+    "test": "noise_gradient",
+    "results": [
+      {
+        "signal_frac": 0.0,
+        "lambda": 0.999742
+      },
+      {
+        "signal_frac": 0.1,
+        "lambda": 0.9996598
+      },
+      {
+        "signal_frac": 0.3,
+        "lambda": 0.9996268
+      },
+      {
+        "signal_frac": 0.5,
+        "lambda": 0.9997401
+      },
+      {
+        "signal_frac": 0.7,
+        "lambda": 0.9645599
+      },
+      {
+        "signal_frac": 0.9,
+        "lambda": 0.8998467
+      },
+      {
+        "signal_frac": 1.0,
+        "lambda": 0.9707451
+      }
+    ],
+    "status": "PASS"
+  }
+}

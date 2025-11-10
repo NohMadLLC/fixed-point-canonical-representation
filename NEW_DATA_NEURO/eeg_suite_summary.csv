@@ -1,0 +1,7 @@
+timestamp,dataset,lambda_val,eta,gamma,expected,min_exp,max_exp,engine_status,fidelity,verdict,json,rc
+2025-10-31 16:25:48,neuro_eeg_awake.csv,0.9836701,0.9727833,3.68839e-05,λ < 1 (mixing/integration),0.8,0.995,PASS,True,PASS,E:\Law_Formal_Proof\New folder\NEW_DATA_NEURO\neuro_eeg_awake.json,0
+2025-10-31 16:25:48,neuro_eeg_rem.csv,1.000146,1.000243,6.55915e-05,λ ≈ 1 (near-critical),0.98,1.02,PASS,True,PASS,E:\Law_Formal_Proof\New folder\NEW_DATA_NEURO\neuro_eeg_rem.json,0
+2025-10-31 16:25:49,neuro_eeg_n3.csv,0.9945478,0.990913,0.0001130039,λ ≈ 1 (near-critical),0.98,1.02,PASS,True,PASS,E:\Law_Formal_Proof\New folder\NEW_DATA_NEURO\neuro_eeg_n3.json,0
+2025-10-31 16:25:49,neuro_eeg_awake_sc4002.csv,0.8128454,0.6880756,5.017453e-05,λ < 1 (mixing/integration),0.8,0.995,PASS,False,PASS,E:\Law_Formal_Proof\New folder\NEW_DATA_NEURO\neuro_eeg_awake_sc4002.json,0
+2025-10-31 16:25:49,neuro_eeg_rem_sc4002.csv,0.9999413,0.9999021,9.798267e-05,λ ≈ 1 (near-critical),0.98,1.02,PASS,True,PASS,E:\Law_Formal_Proof\New folder\NEW_DATA_NEURO\neuro_eeg_rem_sc4002.json,0
+2025-10-31 16:25:50,neuro_eeg_n3_sc4002.csv,0.9977994,0.9963323,0.0001005282,λ ≈ 1 (near-critical),0.98,1.02,PASS,True,PASS,E:\Law_Formal_Proof\New folder\NEW_DATA_NEURO\neuro_eeg_n3_sc4002.json,0

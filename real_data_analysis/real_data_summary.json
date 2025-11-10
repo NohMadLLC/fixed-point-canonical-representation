@@ -1,0 +1,449 @@
+{
+  "param_alpha_kappa": [
+    {
+      "domain": "qrng",
+      "file": "01_qrng_anu.csv",
+      "param": "alpha",
+      "values": [
+        {
+          "alpha": 0.3,
+          "lambda": "1.000107e+00",
+          "gamma": "5.788839e-08",
+          "final": "PASS",
+          "rc": 0
+        },
+        {
+          "alpha": 0.5,
+          "lambda": "1.000179e+00",
+          "gamma": "5.788839e-08",
+          "final": "PASS",
+          "rc": 0
+        },
+        {
+          "alpha": 0.7,
+          "lambda": "1.000251e+00",
+          "gamma": "5.788839e-08",
+          "final": "PASS",
+          "rc": 0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": "1.000322e+00",
+          "gamma": "5.788839e-08",
+          "final": "PASS",
+          "rc": 0
+        }
+      ],
+      "std": 8.016350478860969e-05,
+      "range": 0.0002149999999998542
+    },
+    {
+      "domain": "physics",
+      "file": "02_brownian_motion.csv",
+      "param": "alpha",
+      "values": [
+        {
+          "alpha": 0.3,
+          "lambda": "9.992638e-01",
+          "gamma": "2.096458e-07",
+          "final": "PASS",
+          "rc": 0
+        },
+        {
+          "alpha": 0.5,
+          "lambda": "9.987730e-01",
+          "gamma": "2.096458e-07",
+          "final": "PASS",
+          "rc": 0
+        },
+        {
+          "alpha": 0.7,
+          "lambda": "9.982822e-01",
+          "gamma": "2.096458e-07",
+          "final": "PASS",
+          "rc": 0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": "9.977914e-01",
+          "gamma": "2.096458e-07",
+          "final": "PASS",
+          "rc": 0
+        }
+      ],
+      "std": 0.0005487310816784634,
+      "range": 0.0014724000000000403
+    },
+    {
+      "domain": "finance",
+      "file": "11_bitcoin_synthetic.csv",
+      "param": "alpha",
+      "values": [
+        {
+          "alpha": 0.3,
+          "lambda": "9.973568e-01",
+          "gamma": "8.254626e-03",
+          "final": "PASS",
+          "rc": 0
+        },
+        {
+          "alpha": 0.5,
+          "lambda": "9.955947e-01",
+          "gamma": "8.254626e-03",
+          "final": "PASS",
+          "rc": 0
+        },
+        {
+          "alpha": 0.7,
+          "lambda": "9.938326e-01",
+          "gamma": "8.254626e-03",
+          "final": "PASS",
+          "rc": 0
+        },
+        {
+          "alpha": 0.9,
+          "lambda": "9.920705e-01",
+          "gamma": "8.254626e-03",
+          "final": "PASS",
+          "rc": 0
+        }
+      ],
+      "std": 0.0019700876915762265,
+      "range": 0.005286300000000077
+    },
+    {
+      "domain": "qrng",
+      "file": "01_qrng_anu.csv",
+      "param": "kappa",
+      "values": [
+        {
+          "kappa": 10,
+          "lambda": "1.000215e+00",
+          "gamma": "5.788839e-08",
+          "final": "PASS",
+          "rc": 0
+        },
+        {
+          "kappa": 25,
+          "lambda": "1.000215e+00",
+          "gamma": "5.788839e-08",
+          "final": "PASS",
+          "rc": 0
+        },
+        {
+          "kappa": 50,
+          "lambda": "1.000215e+00",
+          "gamma": "5.788839e-08",
+          "final": "PASS",
+          "rc": 0
+        },
+        {
+          "kappa": 100,
+          "lambda": "1.000215e+00",
+          "gamma": "5.788839e-08",
+          "final": "PASS",
+          "rc": 0
+        }
+      ],
+      "std": 0.0,
+      "range": 0.0
+    },
+    {
+      "domain": "physics",
+      "file": "02_brownian_motion.csv",
+      "param": "kappa",
+      "values": [
+        {
+          "kappa": 10,
+          "lambda": "9.985276e-01",
+          "gamma": "2.096458e-07",
+          "final": "PASS",
+          "rc": 0
+        },
+        {
+          "kappa": 25,
+          "lambda": "9.985276e-01",
+          "gamma": "2.096458e-07",
+          "final": "PASS",
+          "rc": 0
+        },
+        {
+          "kappa": 50,
+          "lambda": "9.985276e-01",
+          "gamma": "2.096458e-07",
+          "final": "PASS",
+          "rc": 0
+        },
+        {
+          "kappa": 100,
+          "lambda": "9.985276e-01",
+          "gamma": "2.096458e-07",
+          "final": "PASS",
+          "rc": 0
+        }
+      ],
+      "std": 0.0,
+      "range": 0.0
+    },
+    {
+      "domain": "finance",
+      "file": "11_bitcoin_synthetic.csv",
+      "param": "kappa",
+      "values": [
+        {
+          "kappa": 10,
+          "lambda": "9.947137e-01",
+          "gamma": "8.254626e-03",
+          "final": "PASS",
+          "rc": 0
+        },
+        {
+          "kappa": 25,
+          "lambda": "9.947137e-01",
+          "gamma": "8.254626e-03",
+          "final": "PASS",
+          "rc": 0
+        },
+        {
+          "kappa": 50,
+          "lambda": "9.947137e-01",
+          "gamma": "8.254626e-03",
+          "final": "PASS",
+          "rc": 0
+        },
+        {
+          "kappa": 100,
+          "lambda": "9.947137e-01",
+          "gamma": "8.254626e-03",
+          "final": "PASS",
+          "rc": 0
+        }
+      ],
+      "std": 0.0,
+      "range": 0.0
+    }
+  ],
+  "cross_domain": {
+    "values": [
+      {
+        "domain": "qrng",
+        "file": "02_brownian_motion.csv",
+        "lambda": "9.985276e-01",
+        "gamma": "2.096458e-07",
+        "final": "PASS",
+        "rc": 0
+      },
+      {
+        "domain": "physics",
+        "file": "02_brownian_motion.csv",
+        "lambda": "9.985276e-01",
+        "gamma": "2.096458e-07",
+        "final": "PASS",
+        "rc": 0
+      },
+      {
+        "domain": "social",
+        "file": "02_brownian_motion.csv",
+        "lambda": "9.985276e-01",
+        "gamma": "2.096458e-07",
+        "final": "PASS",
+        "rc": 0
+      },
+      {
+        "domain": "climate",
+        "file": "02_brownian_motion.csv",
+        "lambda": "9.985276e-01",
+        "gamma": "2.096458e-07",
+        "final": "PASS",
+        "rc": 0
+      },
+      {
+        "domain": "finance",
+        "file": "02_brownian_motion.csv",
+        "lambda": "9.985276e-01",
+        "gamma": "2.096458e-07",
+        "final": "PASS",
+        "rc": 0
+      }
+    ],
+    "std": 1.1102230246251565e-16,
+    "range": 0.0,
+    "result": "Substrate-independent"
+  },
+  "within_domain": {
+    "qrng": {
+      "values": [
+        {
+          "file": "01_qrng_anu.csv",
+          "lambda": "1.000215e+00",
+          "gamma": "5.788839e-08",
+          "final": "PASS",
+          "rc": 0
+        },
+        {
+          "file": "14_godel_selfreference.csv",
+          "lambda": "8.429809e-01",
+          "gamma": "7.678358e-06",
+          "final": "PASS",
+          "rc": 0
+        },
+        {
+          "file": "15_entropy_forward.csv",
+          "lambda": "9.990252e-01",
+          "gamma": "3.016992e-04",
+          "final": "PASS",
+          "rc": 0
+        },
+        {
+          "file": "iid_04639.csv",
+          "lambda": "1.012000e+00",
+          "gamma": "0.000000e+00",
+          "final": "PASS",
+          "rc": 0
+        },
+        {
+          "file": "15_entropy_backward.csv",
+          "lambda": "9.990252e-01",
+          "gamma": "3.016992e-04",
+          "final": "PASS",
+          "rc": 0
+        }
+      ],
+      "std": 0.06402126953935229,
+      "range": 0.16901909999999998,
+      "consistency": "High Variance"
+    },
+    "physics": {
+      "values": [
+        {
+          "file": "02_brownian_motion.csv",
+          "lambda": "9.985276e-01",
+          "gamma": "2.096458e-07",
+          "final": "PASS",
+          "rc": 0
+        },
+        {
+          "file": "03_ising_model.csv",
+          "lambda": "9.985312e-01",
+          "gamma": "3.933725e-04",
+          "final": "PASS",
+          "rc": 0
+        },
+        {
+          "file": "04_heat_diffusion.csv",
+          "lambda": "9.994194e-01",
+          "gamma": "4.879538e-04",
+          "final": "PASS",
+          "rc": 0
+        },
+        {
+          "file": "05_ca_rule110.csv",
+          "lambda": "1.012000e+00",
+          "gamma": "2.466094e-06",
+          "final": "PASS",
+          "rc": 0
+        },
+        {
+          "file": "06_ca_rule30.csv",
+          "lambda": "1.012000e+00",
+          "gamma": "5.337684e-07",
+          "final": "PASS",
+          "rc": 0
+        }
+      ],
+      "std": 0.006462059989074717,
+      "range": 0.013472400000000051,
+      "consistency": "Consistent/Non-Diagnostic"
+    },
+    "climate": {
+      "values": [
+        {
+          "file": "09_noaa_temperature_synthetic.csv",
+          "lambda": "9.257447e-01",
+          "gamma": "6.676828e-04",
+          "final": "PASS",
+          "rc": 0
+        },
+        {
+          "file": "10_ndbc_wave_synthetic.csv",
+          "lambda": "9.493974e-01",
+          "gamma": "1.326850e-06",
+          "final": "PASS",
+          "rc": 0
+        }
+      ],
+      "std": 0.011826349999999985,
+      "range": 0.02365269999999997,
+      "consistency": "Consistent/Non-Diagnostic"
+    },
+    "finance": {
+      "values": [
+        {
+          "file": "11_bitcoin_synthetic.csv",
+          "lambda": "9.947137e-01",
+          "gamma": "8.254626e-03",
+          "final": "PASS",
+          "rc": 0
+        },
+        {
+          "file": "12_sp500_synthetic.csv",
+          "lambda": "9.971223e-01",
+          "gamma": "4.128735e-03",
+          "final": "PASS",
+          "rc": 0
+        },
+        {
+          "file": "13_gdp_synthetic.csv",
+          "lambda": "9.865174e-01",
+          "gamma": "1.835411e-01",
+          "final": "PASS",
+          "rc": 0
+        }
+      ],
+      "std": 0.004539268071935059,
+      "range": 0.010604900000000028,
+      "consistency": "Consistent/Non-Diagnostic"
+    }
+  },
+  "known_systems": {
+    "brownian": {
+      "file": "02_brownian_motion.csv",
+      "status_check": "\u2713",
+      "lambda": "9.985276e-01",
+      "gamma": "2.096458e-07",
+      "final": "PASS",
+      "rc": 0
+    },
+    "heat": {
+      "file": "04_heat_diffusion.csv",
+      "status_check": "\u2713",
+      "lambda": "9.994194e-01",
+      "gamma": "4.879538e-04",
+      "final": "PASS",
+      "rc": 0
+    },
+    "rule30": {
+      "file": "06_ca_rule30.csv",
+      "status_check": "\u2713",
+      "lambda": "1.012000e+00",
+      "gamma": "5.337684e-07",
+      "final": "PASS",
+      "rc": 0
+    },
+    "forward_backward": {
+      "forward": {
+        "lambda": "9.990252e-01",
+        "gamma": "3.016992e-04",
+        "final": "PASS",
+        "rc": 0
+      },
+      "backward": {
+        "lambda": "9.990252e-01",
+        "gamma": "3.016992e-04",
+        "final": "PASS",
+        "rc": 0
+      },
+      "difference": 0.0
+    }
+  }
+}

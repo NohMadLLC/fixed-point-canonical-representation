@@ -1,0 +1,5 @@
+GAMMA_TRUE=0.1
+LAMBDA_TRUE=0.9048374180359595
+T_MAX=100
+RNG_SEED=42
+FILES=decay_deterministic.csv,decay_stochastic.csv,decay_markov.csv,decay_quantum.csv

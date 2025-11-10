@@ -1,0 +1,128 @@
+{
+  "expected_lambda": 0.9048374180359595,
+  "expected_gamma": 0.1,
+  "engine": {
+    "cmd": [
+      "python",
+      "cce_universal.py"
+    ],
+    "args": [
+      "--alpha",
+      "0.6",
+      "--steps",
+      "1200",
+      "--burn",
+      "200"
+    ],
+    "timeout_s": 60,
+    "run_engine": true
+  },
+  "results": [
+    {
+      "name": "Deterministic ODE",
+      "file": "decay_deterministic.csv",
+      "domain": "physics",
+      "lambda": 1.006066,
+      "gamma": 0.05787297,
+      "status": "PASS",
+      "deviation_from_theory": 0.10122858196404039,
+      "engine_stdout_len": 234,
+      "engine_stderr_len": 136,
+      "engine_returncode": 0,
+      "fallback": false,
+      "estimator": {
+        "gamma_hat": 0.09999999999999985,
+        "se_gamma": 2.1328565830888428e-17,
+        "gamma_lo": 0.09999999999999981,
+        "gamma_hi": 0.0999999999999999,
+        "lambda_hat": 0.9048374180359597,
+        "lambda_lo": 0.9048374180359596,
+        "lambda_hi": 0.9048374180359597,
+        "a_hat": -9.797718192317006e-15,
+        "n_used": 100
+      }
+    },
+    {
+      "name": "Stochastic SDE",
+      "file": "decay_stochastic.csv",
+      "domain": "stochastic",
+      "lambda": 1.006067,
+      "gamma": 0.05787297,
+      "status": "PASS",
+      "deviation_from_theory": 0.10122958196404053,
+      "engine_stdout_len": 234,
+      "engine_stderr_len": 133,
+      "engine_returncode": 0,
+      "fallback": false,
+      "estimator": {
+        "gamma_hat": 0.10025646003578209,
+        "se_gamma": 0.0004140060829344925,
+        "gamma_lo": 0.09944500811323048,
+        "gamma_hi": 0.1010679119583337,
+        "lambda_hat": 0.9046053931531797,
+        "lambda_lo": 0.9038716471078361,
+        "lambda_hi": 0.9053397348397969,
+        "a_hat": 0.002954004476834168,
+        "n_used": 100
+      }
+    },
+    {
+      "name": "Markov Chain",
+      "file": "decay_markov.csv",
+      "domain": "stochastic",
+      "lambda": 1.00607,
+      "gamma": 0.05787297,
+      "status": "PASS",
+      "deviation_from_theory": 0.1012325819640405,
+      "engine_stdout_len": 234,
+      "engine_stderr_len": 129,
+      "engine_returncode": 0,
+      "fallback": false,
+      "estimator": {
+        "gamma_hat": 0.08841744450551083,
+        "se_gamma": 0.001940079358062937,
+        "gamma_lo": 0.08461488896370747,
+        "gamma_hi": 0.09222000004731418,
+        "lambda_hat": 0.9153786771560806,
+        "lambda_lo": 0.9119045084403705,
+        "lambda_hi": 0.9188660817404078,
+        "a_hat": -0.11202125543540331,
+        "n_used": 52
+      }
+    },
+    {
+      "name": "Quantum Damping",
+      "file": "decay_quantum.csv",
+      "domain": "quantum",
+      "lambda": 1.006066,
+      "gamma": 0.05787297,
+      "status": "PASS",
+      "deviation_from_theory": 0.10122858196404039,
+      "engine_stdout_len": 234,
+      "engine_stderr_len": 130,
+      "engine_returncode": 0,
+      "fallback": false,
+      "estimator": {
+        "gamma_hat": 0.09999999999999996,
+        "se_gamma": 1.417344668694835e-17,
+        "gamma_lo": 0.09999999999999994,
+        "gamma_hi": 0.09999999999999999,
+        "lambda_hat": 0.9048374180359596,
+        "lambda_lo": 0.9048374180359596,
+        "lambda_hi": 0.9048374180359596,
+        "a_hat": -6.786705411076188e-15,
+        "n_used": 100
+      }
+    }
+  ],
+  "summary": {
+    "lambda_mean": 1.0060672499999999,
+    "lambda_std": 1.6393596311184083e-06,
+    "lambda_range": 4.000000000115023e-06,
+    "lambda_cv": 1.6294732097863324e-06,
+    "max_rel_error": 0.11187930554836689,
+    "verdict": "PARTIAL SUCCESS",
+    "n_success": 4,
+    "n_total": 4
+  }
+}

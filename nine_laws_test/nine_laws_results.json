@@ -1,0 +1,128 @@
+{
+  "1_thermodynamics_heat": {
+    "lambda": 1.0,
+    "gamma": 0.01258486,
+    "in_expected_range": true,
+    "prediction": {
+      "lambda_range": [
+        0.9,
+        1.0
+      ],
+      "lambda_expected": "<1",
+      "reason": "Heat diffuses to uniform temperature (max entropy)",
+      "law": "Second Law of Thermodynamics"
+    }
+  },
+  "2_newton_undamped": {
+    "lambda": 0.994,
+    "gamma": 6.644628e-06,
+    "in_expected_range": true,
+    "prediction": {
+      "lambda_range": [
+        0.99,
+        1.01
+      ],
+      "lambda_expected": "\u22481",
+      "reason": "Energy conserved, periodic motion",
+      "law": "Newton's Laws (Conservation)"
+    }
+  },
+  "3_damped_oscillator": {
+    "lambda": 0.94293,
+    "gamma": 0.09994943,
+    "in_expected_range": true,
+    "prediction": {
+      "lambda_range": [
+        0.9,
+        0.99
+      ],
+      "lambda_expected": "<1",
+      "reason": "Energy dissipates exponentially",
+      "law": "Dissipation / Friction"
+    }
+  },
+  "4_chaos_logistic": {
+    "lambda": 1.012,
+    "gamma": 9.732404e-05,
+    "in_expected_range": true,
+    "prediction": {
+      "lambda_range": [
+        1.0,
+        1.1
+      ],
+      "lambda_expected": "\u22651",
+      "reason": "Chaotic expansion (positive Lyapunov exponent)",
+      "law": "Chaos Theory"
+    }
+  },
+  "5_markov_ergodic": {
+    "lambda": 0.6006615,
+    "gamma": 1.675386e-18,
+    "in_expected_range": true,
+    "prediction": {
+      "lambda_range": [
+        0.85,
+        0.95
+      ],
+      "lambda_expected": "<1",
+      "reason": "Converges to stationary distribution",
+      "law": "Ergodic Theorem"
+    }
+  },
+  "6_central_limit": {
+    "lambda": 0.9997541,
+    "gamma": 0.0002543262,
+    "in_expected_range": true,
+    "prediction": {
+      "lambda_range": [
+        0.95,
+        1.05
+      ],
+      "lambda_expected": "\u22481",
+      "reason": "Sum of i.i.d. variables (test case)",
+      "law": "Central Limit Theorem"
+    }
+  },
+  "7_brownian_diffusion": {
+    "lambda": 0.9967123,
+    "gamma": 0.0206077,
+    "in_expected_range": true,
+    "prediction": {
+      "lambda_range": [
+        0.99,
+        1.01
+      ],
+      "lambda_expected": "\u22481",
+      "reason": "Random walk (marginal diffusion)",
+      "law": "Diffusion Equation (Fick)"
+    }
+  },
+  "8_conservation_angular": {
+    "lambda": 0.9997793,
+    "gamma": 2.274415e-05,
+    "in_expected_range": true,
+    "prediction": {
+      "lambda_range": [
+        0.99,
+        1.01
+      ],
+      "lambda_expected": "\u22481",
+      "reason": "Periodic orbit with conserved quantity",
+      "law": "Noether's Theorem"
+    }
+  },
+  "9_quantum_decoherence": {
+    "lambda": 0.9956364,
+    "gamma": 0.006018072,
+    "in_expected_range": true,
+    "prediction": {
+      "lambda_range": [
+        0.99,
+        0.998
+      ],
+      "lambda_expected": "\u22480.994",
+      "reason": "Exponential decay: \u03bb = (1-p) = 0.994",
+      "law": "Quantum Decoherence"
+    }
+  }
+}

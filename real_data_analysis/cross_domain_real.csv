@@ -1,0 +1,6 @@
+domain,file,lambda,gamma,final,rc
+qrng,02_brownian_motion.csv,9.985276e-01,2.096458e-07,PASS,0
+physics,02_brownian_motion.csv,9.985276e-01,2.096458e-07,PASS,0
+social,02_brownian_motion.csv,9.985276e-01,2.096458e-07,PASS,0
+climate,02_brownian_motion.csv,9.985276e-01,2.096458e-07,PASS,0
+finance,02_brownian_motion.csv,9.985276e-01,2.096458e-07,PASS,0
