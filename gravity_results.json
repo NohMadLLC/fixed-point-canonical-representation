@@ -1,0 +1,15 @@
+[
+  {
+    "group": "gravity",
+    "file": "H-H1_LOSC_4_V1-1126257414-4096.csv",
+    "exists": true,
+    "timeout_s": 300,
+    "eta": 0.96366,
+    "lambda": 0.9781967,
+    "gamma": 3.576042e-07,
+    "status": "PASS",
+    "fidelity": true,
+    "ts": "2025-11-12T01:31:21.480637Z",
+    "log": "H-H1_LOSC_4_V1-1126257414-4096.csv.log"
+  }
+]

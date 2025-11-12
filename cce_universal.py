@@ -623,4 +623,3 @@ if __name__ == "__main__":
     print(f"Deviation (|lambda - eta|): {abs(lam_hat - eta):.6e}")
     print(f"FINAL STATUS: {final_status}")
     print(f"Fidelity (lambda ~ eta): {bool(fidelity)}")
-    

@@ -1,0 +1,15 @@
+[
+  {
+    "group": "electromagnetic",
+    "file": "HFI_SkyMap_143_2048_R3.01_full.csv",
+    "exists": true,
+    "timeout_s": 1800,
+    "eta": 0.988531,
+    "lambda": 0.9931185,
+    "gamma": 1.192117e-07,
+    "status": "PASS",
+    "fidelity": true,
+    "ts": "2025-11-12T01:32:31.596838Z",
+    "log": "HFI_SkyMap_143_2048_R3.01_full.csv.log"
+  }
+]

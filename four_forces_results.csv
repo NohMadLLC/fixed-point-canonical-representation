@@ -1,0 +1,11 @@
+group,file,exists,timeout_s,eta,lambda,gamma,status,fidelity,log
+gravity,H-H1_LOSC_4_V1-1126257414-4096.csv,1,300,0.96366,0.9781967,3.576042e-07,PASS,True,H-H1_LOSC_4_V1-1126257414-4096.csv.log
+electromagnetic,HFI_SkyMap_143_2048_R3.01_full.csv,1,1800,0.988531,0.9931185,1.192117e-07,PASS,True,HFI_SkyMap_143_2048_R3.01_full.csv.log
+weak,CS-137_decay.csv,1,300,0.99908,0.9994483,0.001198234,PASS,True,CS-137_decay.csv.log
+weak,CO-60_decay.csv,1,300,0.99908,0.9994483,0.001198234,PASS,True,CO-60_decay.csv.log
+strong,IC79-2010-events.csv,1,300,1.00006,1.000036,7.774814e-08,PASS,True,IC79-2010-events.csv.log
+strong,IC86-2011-events.csv,1,300,1.000004,1.000002,8.806324e-09,PASS,True,IC86-2011-events.csv.log
+strong,IC86-2012-events.csv,1,300,1.0,1.0,1.197838e-08,PASS,True,IC86-2012-events.csv.log
+strong,strong_scattering_qcd.csv,1,300,0.669925,0.8019548,0.1034262,PASS,False,strong_scattering_qcd.csv.log
+strong,strong_spectrum_qcd.csv,1,300,0.55401,0.7324062,0.5190506,PASS,False,strong_spectrum_qcd.csv.log
+strong,strong_spectrum_qcd_effcorr.csv,1,300,0.95,0.9700003,1.077991,PASS,True,strong_spectrum_qcd_effcorr.csv.log

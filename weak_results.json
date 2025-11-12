@@ -1,0 +1,28 @@
+[
+  {
+    "group": "weak",
+    "file": "CS-137_decay.csv",
+    "exists": true,
+    "timeout_s": 300,
+    "eta": 0.99908,
+    "lambda": 0.9994483,
+    "gamma": 0.001198234,
+    "status": "PASS",
+    "fidelity": true,
+    "ts": "2025-11-12T01:48:21.875183Z",
+    "log": "CS-137_decay.csv.log"
+  },
+  {
+    "group": "weak",
+    "file": "CO-60_decay.csv",
+    "exists": true,
+    "timeout_s": 300,
+    "eta": 0.99908,
+    "lambda": 0.9994483,
+    "gamma": 0.001198234,
+    "status": "PASS",
+    "fidelity": true,
+    "ts": "2025-11-12T01:48:23.291953Z",
+    "log": "CO-60_decay.csv.log"
+  }
+]
